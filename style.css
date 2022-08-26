@@ -131,3 +131,102 @@ section.card-container.innovation {
   top: 37px;
   right: -75px;
 }
+
+.handburger {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .brand {
+    font-size: 19px;
+  }
+  p.item {
+    padding: 0 13px;
+  }
+
+  .items {
+    font-size: 13px;
+  }
+  .main > h1 {
+    font-size: 35px;
+  }
+
+  .main > button {
+    font-size: 18px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #fff;
+    padding: 7px 21px;
+    border-radius: 30px;
+    margin-top: 46px;
+  }
+
+  section.card-container.idea {
+    right: 82px;
+    top: 134px;
+  }
+
+  section.card-container.innovation {
+    right: 222px;
+    top: 345px;
+  }
+}
+@media screen and (max-width: 604px) {
+  .container {
+    padding: 0 24px;
+    padding-top: 25px;
+  }
+
+  .items {
+    display: none;
+  }
+
+  .contact-container {
+    display: none;
+  }
+
+  .handburger {
+    display: inline-flex;
+    width: 28px;
+    fill: #ffffff;
+  }
+
+  .right-nav {
+    padding-bottom: 24px;
+    border-bottom: 0px solid #fff;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-container {
+    position: absolute;
+    right: 0;
+    background-color: #314a5c;
+    padding: 22px 23px;
+    width: 140px;
+    font-size: 11px;
+    opacity: 0.9;
+  }
+
+  section.card-container.idea {
+    right: 21px;
+    top: 334px;
+    z-index: -3;
+  }
+
+  section.card-container.innovation {
+    right: 162px;
+    top: 517px;
+  }
+
+  .main {
+    position: absolute;
+    top: 23%;
+  }
+
+  .main > h1 {
+    font-size: 26px;
+  }
+}
